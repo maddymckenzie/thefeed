@@ -1,0 +1,114 @@
+body {
+    background-color: #d7eed8;
+}
+
+p {
+    color: #543844;
+    size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+
+}
+
+#times {
+    color: #263953;
+    size: 45px;
+    padding: 10px;
+}
+
+video {
+    border: 5px solid #543844;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    border: 5px solid #543844;
+    width: 200px;
+    height: 100%;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+#first_section {
+    border: 5px solid #543844;
+    border-radius: 15px;
+    background-color: #e5d4e1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 530px; 
+}
+
+#images {
+    display: flex;
+    flex-direction:row;
+}
+
+#img_p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@font-face {
+    font-family: michroma;
+    src: url(fonts/Michroma/Michroma-Regular.ttf);
+}
+
+
+
+.introduction {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 1000px;
+    height: auto;
+}
+
+h2 {
+    size: 16px;
+    color: #543844;
+    font-family: michroma;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#weird {
+    margin: 300px;
+}
+
+figcaption {
+    color: #543844;
+    size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#aboutme {
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.backtotop {
+    color: #543844;
+    size: 45px;
+    padding: 10px;
+    font-family: michroma;
+    position: relative;
+    bottom: 20px;
+    right: 575px
+}
